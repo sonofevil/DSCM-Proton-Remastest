@@ -844,8 +844,11 @@ Public Class MainWindow
                 row.DefaultCellStyle.Font = Nothing
             End If
         Next
-
-        updateRecentNodes()
+        
+        Try
+            updateRecentNodes()
+        Catch
+        End Try
         'Do this now as our node info as recent as possible
         handleDisconnects()
     End Sub
