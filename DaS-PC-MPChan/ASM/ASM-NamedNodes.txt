@@ -45,4 +45,4 @@ pop eax
 codeSkip:
 pop eax
 push esi
-jmp darksouls.exe + &H7E637E
+jmp modsouls.exe + &H7E637E
