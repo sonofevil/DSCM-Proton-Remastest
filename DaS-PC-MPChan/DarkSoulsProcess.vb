@@ -227,7 +227,7 @@ Public Class DarkSoulsProcess
 
     Private Sub attachToProcess()
 
-        Dim windowCaption As String = "darksouls"
+        Dim windowCaption As String = "modsouls"
         Dim _allProcesses() As Process = Process.GetProcesses
         For Each pp As Process In _allProcesses
             If pp.ProcessName.ToLower.Equals(windowCaption.ToLower) AndAlso Not pp.HasExited Then
@@ -257,7 +257,7 @@ Public Class DarkSoulsProcess
     Private Sub findDllAddresses()
         For Each dll As ProcessModule In _targetProcess.Modules
             Select Case dll.ModuleName.ToLower
-                Case "darksouls.exe"
+                Case "modsouls.exe"
                     dsBase = dll.BaseAddress
 
                 Case "d3d9.dll"
