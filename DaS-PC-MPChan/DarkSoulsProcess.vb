@@ -227,7 +227,7 @@ Public Class DarkSoulsProcess
 
     Private Sub attachToProcess()
 
-        Dim windowCaption As String = "modsouls"
+        Dim windowCaption As String = "darksouls"
         Dim _allProcesses() As Process = Process.GetProcesses
         For Each pp As Process In _allProcesses
             If pp.ProcessName.ToLower.Equals(windowCaption.ToLower) AndAlso Not pp.HasExited Then
