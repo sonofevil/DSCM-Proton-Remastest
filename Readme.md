@@ -1,4 +1,4 @@
-Proton-compatible DSCM by shaunraj made compatible with the Remastest mod by InfernoPlus by making it detect the MODSOULS.exe process.
+Proton-compatible DSCM by Wulf2k and shaunraj made compatible with the Remastest mod by InfernoPlus by making it detect the MODSOULS.exe process.
 
 Instructions
 ============
